@@ -172,7 +172,7 @@ impl Renderable for Triangle {
             for x_iter in 0..self.width {
                  let y_alg = (dy / dx) * ((x_iter) as f64 - x1) + y1;
 
-                if  (y_alg as i32)  == (y_iter as i32) { // convert y_iter to i32 to match the type of y_alg
+                if  (y_alg as i32)  == (y_iter as i32) { 
                     buffer[y_iter][x_iter] = CanvasChar::Border;
                 }
             }
