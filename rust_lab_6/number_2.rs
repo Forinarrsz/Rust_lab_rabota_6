@@ -200,7 +200,6 @@ pub fn main() {
 
     println!("{}", canvas.output());
 }
-
 #[cfg(test)]
 mod tests {
     use super::*;
