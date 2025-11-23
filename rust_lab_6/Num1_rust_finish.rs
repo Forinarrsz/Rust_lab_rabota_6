@@ -247,6 +247,9 @@ let points_vec: Vec<(Point2D<i32>, f64)> = vec![
         println!("({:?}) -> {:.1}", p, t);
     }
 }
+
+
+
 #[cfg(test)]
 mod tests {
     use super::*;
